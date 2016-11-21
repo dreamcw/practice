@@ -29,12 +29,24 @@ printf("문자 %c의 ASCII 코드 값은 %d 이다.\n", 'a', 'a');
 printf("ASCII 코드 값이 %d인 문자는 %c 이다.\n", 98, 98);
 }*/
 
+/*void main()
+{
+printf("======================================================\n");
+printf("%s", "\t이름\t\t나이\t\t주소\n");
+printf("======================================================\n");
+printf("\t홍길동\t\t%d\t\t산골짜기\n", 20);
+printf("\t%s\t\t%s\t\t%s\n", "이순신", "30", "바다");
+
+}*/
+
+
 void main()
 {
-	printf("======================================================\n");
-	printf("%s", "\t이름\t\t나이\t\t주소\n");
-	printf("======================================================\n");
-	printf("\t홍길동\t\t%d\t\t산골짜기\n", 20);
-	printf("\t%s\t\t%s\t\t%s\n", "이순신", "30", "바다");
+	printf("ASCII Code %d => %c\n", 65, 65);
+	printf("ASCII Code %d => %c\n", 97, 97);
+	printf("ASCII Code %d => %c\n", 48, 48);
 
+	printf("Character %c => %d\n", 'z', 'z');
+	printf("Character %c => %d\n", 'Z', 'Z');
+	printf("Character %c => %d\n", '9', '9');
 }
