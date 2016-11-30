@@ -17,30 +17,30 @@ printf("Hexadecimal:%x\n",0xAD);
 /*void main()
 
 {
-printf("½Ç¼öÇü »ó¼ö : %f \n", 123.456);
-printf("Áö¼öÇü »ó¼ö : %d \n", 123.456);
-printf("½Ç¼öÇü »ó¼ö : %f\n", 123);
+printf("ì‹¤ìˆ˜í˜• ìƒìˆ˜ : %f \n", 123.456);
+printf("ì§€ìˆ˜í˜• ìƒìˆ˜ : %d \n", 123.456);
+printf("ì‹¤ìˆ˜í˜• ìƒìˆ˜ : %f\n", 123);
 }*/
 
 
 /*void main()
 {
-printf("¹®ÀÚ %cÀÇ ASCII ÄÚµå °ªÀº %d ÀÌ´Ù.\n", 'a', 'a');
-printf("ASCII ÄÚµå °ªÀÌ %dÀÎ ¹®ÀÚ´Â %c ÀÌ´Ù.\n", 98, 98);
+printf("ë¬¸ì %cì˜ ASCII ì½”ë“œ ê°’ì€ %d ì´ë‹¤.\n", 'a', 'a');
+printf("ASCII ì½”ë“œ ê°’ì´ %dì¸ ë¬¸ìëŠ” %c ì´ë‹¤.\n", 98, 98);
 }*/
 
 /*void main()
 {
 printf("======================================================\n");
-printf("%s", "\tÀÌ¸§\t\t³ªÀÌ\t\tÁÖ¼Ò\n");
+printf("%s", "\tì´ë¦„\t\të‚˜ì´\t\tì£¼ì†Œ\n");
 printf("======================================================\n");
-printf("\tÈ«±æµ¿\t\t%d\t\t»ê°ñÂ¥±â\n", 20);
-printf("\t%s\t\t%s\t\t%s\n", "ÀÌ¼ø½Å", "30", "¹Ù´Ù");
+printf("\tí™ê¸¸ë™\t\t%d\t\tì‚°ê³¨ì§œê¸°\n", 20);
+printf("\t%s\t\t%s\t\t%s\n", "ì´ìˆœì‹ ", "30", "ë°”ë‹¤");
 
 }*/
 
 
-void main()
+int main()
 {
 	printf("ASCII Code %d => %c\n", 65, 65);
 	printf("ASCII Code %d => %c\n", 97, 97);
@@ -49,4 +49,6 @@ void main()
 	printf("Character %c => %d\n", 'z', 'z');
 	printf("Character %c => %d\n", 'Z', 'Z');
 	printf("Character %c => %d\n", '9', '9');
+
+	return 0;
 }
