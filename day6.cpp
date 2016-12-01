@@ -1,78 +1,111 @@
 #include <stdio.h>
 /*void main()
 {
-	int num;
-	scanf("%d", &num);
-	switch(num) {
-		case 1:printf("1ÀÔ·Â"); break;
-		case 2:printf("2ÀÔ·Â"); break;
-		default:printf("1,2Á¦¿ÜÇÑ ³ª¸ÓÁö ÀÔ·Â");
-	}
+    int num;
+    scanf("%d", &num);
+    switch(num) {
+        case 1:
+	    printf("1ì…ë ¥");
+	    break;
+        case 2:
+            printf("2ì…ë ¥");
+            break;
+        default:
+            printf("1,2ì œì™¸í•œ ë‚˜ë¨¸ì§€ ì…ë ¥");
+    }
 }*/
 
 /*void main()
 {
-	char ch;
-	scanf_s("%c",&ch);
-	switch (ch){
-		case 'a':printf("a¸¦ ÀÔ·Â"); break; 
-		case 'A':printf("A¸¦ ÀÔ·Â"); break;
-		}
+    char ch;
+    scanf_s("%c",&ch);
+    switch (ch) {
+        case 'a':
+            printf("aë¥¼ ì…ë ¥");
+            break; 
+        case 'A':
+            printf("Aë¥¼ ì…ë ¥");
+            break;
+    }
 }*/
 
 /*#include <stdio.h>
 #include <stdlib.h>
 void main() {
-	int num, data;
-	while (1) {
-	printf("===============================\n");
-	printf("1. µ¥ÀÌÅÍ ÀÔ·Â\n");
-	printf("2. µ¥ÀÌÅÍ Ãâ·Â\n");
-	printf("3. Á¾·á\n");
-	printf(""==============================\n");
-	scanf_s("%d", &num);
-	switch (num) {
-	case 1:printf("µ¥ÀÌÅÍ¸¦ ÀÔ·ÂÇÏ¼¼¿ä\n");
-		scanf_s("%d", data); break;
-	case 2:printf("%d", data); system("pause"); break;
-	case 3:exit(1);
-	}
-	system("cls");
+    int num, data;
+
+    while (1) {
+        printf("===============================\n");
+        printf("1. ë°ì´í„° ì…ë ¥\n");
+        printf("2. ë°ì´í„° ì¶œë ¥\n");
+        printf("3. ì¢…ë£Œ\n");
+        printf(""==============================\n");
+        scanf_s("%d", &num);
+
+        switch (num) {
+            case 1:
+                printf("ë°ì´í„°ë¥¼ ì…ë ¥í•˜ì„¸ìš”\n");
+                scanf_s("%d", data);
+                break;
+            case 2:
+                printf("%d", data);
+                system("pause");
+                break;
+            case 3:
+                exit(1);
+        }
+        system("cls");
+    }
 }*/
 
 
 #include <stdio.h>
 #include <stdlib.h>
 
-void main(){
-		char ch;
-		int num, data1, data2, data3;
-		sum = data1+data2+data3
-		avg = sum/3.0
-			while (1) {
-				printf("=================================\n");
-				printf("             M e n u\n");
-				printf("=================================\n");
-				printf("		1. ÇĞ»ı ÀÌ¸§ ÀÔ·Â\n");
-				printf("		2. ¼ºÀû 3°ú¸ñ ÀÔ·Â\n");
-				printf("		3. ÇĞ»ı ÀÌ¸§ Ãâ·Â\n");
-				printf("		4. ÇÕ°è Ãâ·Â\n");
-				printf("		5. Æò±Õ Ãâ·Â\n");
-				printf("		6. Á¾·á\n");
-				printf("=================================\n");
-					scanf_s("%d", &num);
-					switch (num) {
-					case 1:printf("ÇĞ»ı ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä\n");
-						scanf_s("%s", ch, 20); break;
-					case 2:printf("3°ú¸ñÀÇ ¼ºÀûÀ» ÀÔ·ÂÇÏ¼¼¿ä\n");
-						scanf_s("%d%d%d", &data1, &data2, &data3); break;
-					case 3:printf("%s", ch); break;
-					case 4:printf("¼ºÀû : %d, %d, %d\n", data1, data2, data3);
-						printf("ÇÕ°è : %d\n", data1+data2+data3);break;
-					case 5:printf("%s ÇĞ»ıÀÇ Æò±Õ : %d\n", ch, (data1+data2+data3)/3); system("pause"); break;
-					case 6:exit (1);
-					}
-					system("cls");
+int main() {
+    char ch;
+    int num, data1, data2, data3;
+    sum = data1+data2+data3
+    avg = sum/3.0
+    
+    while (1) {
+        printf("=================================\n");
+        printf("             M e n u\n");
+        printf("=================================\n");
+        printf("		1. í•™ìƒ ì´ë¦„ ì…ë ¥\n");
+        printf("		2. ì„±ì  3ê³¼ëª© ì…ë ¥\n");
+        printf("		3. í•™ìƒ ì´ë¦„ ì¶œë ¥\n");
+        printf("		4. í•©ê³„ ì¶œë ¥\n");
+        printf("		5. í‰ê·  ì¶œë ¥\n");
+        printf("		6. ì¢…ë£Œ\n");
+        printf("=================================\n");
+        
+        scanf_s("%d", &num);
+        switch (num) {
+            case 1:
+                printf("í•™ìƒ ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš”\n");
+                scanf_s("%s", ch, 20);
+                break;
+            case 2:
+                printf("3ê³¼ëª©ì˜ ì„±ì ì„ ì…ë ¥í•˜ì„¸ìš”\n");
+                scanf_s("%d%d%d", &data1, &data2, &data3);
+                break;
+            case 3:
+                printf("%s", ch);
+                break;
+            case 4:
+                printf("ì„±ì  : %d, %d, %d\n", data1, data2, data3);
+                printf("í•©ê³„ : %d\n", data1+data2+data3);
+                break;
+            case 5:
+                printf("%s í•™ìƒì˜ í‰ê·  : %d\n", ch, (data1+data2+data3)/3);
+                system("pause");
+                break;
+            case 6:
+                exit (1);
+        }
+        system("cls");
+    }
 
-			}
-
+    return 0;
+}
